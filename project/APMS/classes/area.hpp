@@ -31,7 +31,7 @@ public:
     bool operator<(const Area&) const; 
     bool operator==(const Area&);
     Area& operator=(const Area&);
-
+    Area& operator=(const Area&&);
 
     private:
 
